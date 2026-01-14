@@ -1,0 +1,15 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-case-study",
+  "title": "Cas client",
+  "blockType": "caseStudy",
+  "data": {
+    "heading": "Résultats obtenus pour Atelier Lumière",
+    "richText": "Nous avons repensé l'expérience en ligne et optimisé la fiche Google Business pour tripler les demandes en 3 mois.",
+    "metrics": [
+      { "label": "Demandes", "value": "+215%" },
+      { "label": "Avis 5★", "value": "+32" }
+    ],
+    "gallery": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_type": "page",
+  "_id": "page-contact",
+  "title": "Contact",
+  "slug": { "_type": "slug", "current": "contact" },
+  "content": [
+    { "_type": "reference", "_ref": "block-hero-contact" },
+    { "_type": "reference", "_ref": "block-zone-coverage" },
+    { "_type": "reference", "_ref": "block-contact-map" },
+    { "_type": "reference", "_ref": "block-contact-cta" },
+    { "_type": "reference", "_ref": "block-sticky-actions" }
+  ]
+}

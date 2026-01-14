@@ -1,0 +1,12 @@
+{
+  "_type": "page",
+  "_id": "page-faq",
+  "title": "FAQ",
+  "slug": { "_type": "slug", "current": "faq" },
+  "content": [
+    { "_type": "reference", "_ref": "block-hero-faq" },
+    { "_type": "reference", "_ref": "block-faq-local" },
+    { "_type": "reference", "_ref": "block-contact-cta" },
+    { "_type": "reference", "_ref": "block-sticky-actions" }
+  ]
+}

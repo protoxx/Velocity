@@ -1,0 +1,11 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-cta-contact",
+  "title": "CTA contact",
+  "blockType": "ctaContact",
+  "data": {
+    "heading": "Prêt à booster votre présence locale ?",
+    "primaryCta": "Planifier un audit",
+    "secondaryCta": "Nous écrire"
+  }
+}

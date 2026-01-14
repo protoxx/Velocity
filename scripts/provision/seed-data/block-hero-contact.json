@@ -1,0 +1,12 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-hero-contact",
+  "title": "Hero contact",
+  "blockType": "heroLocal",
+  "data": {
+    "heading": "Parlons de votre projet local",
+    "subheading": "Un expert Velocity vous répond sous 24h pour cadrer votre besoin.",
+    "primaryCta": "Planifier un appel",
+    "secondaryCta": "Nous écrire"
+  }
+}

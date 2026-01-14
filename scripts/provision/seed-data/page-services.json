@@ -1,0 +1,12 @@
+{
+  "_type": "page",
+  "_id": "page-services",
+  "title": "Services",
+  "slug": { "_type": "slug", "current": "services" },
+  "content": [
+    { "_type": "reference", "_ref": "block-hero-services" },
+    { "_type": "reference", "_ref": "block-services" },
+    { "_type": "reference", "_ref": "block-local-proof" },
+    { "_type": "reference", "_ref": "block-cta-contact" }
+  ]
+}

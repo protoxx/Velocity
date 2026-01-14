@@ -1,0 +1,13 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-contact-map",
+  "title": "Coordonnées",
+  "blockType": "contactMap",
+  "data": {
+    "heading": "Nous rendre visite",
+    "address": "24 rue des Artisans, 69003 Lyon",
+    "phone": "+33 4 72 00 00 00",
+    "email": "bonjour@velocity.agency",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!..."
+  }
+}

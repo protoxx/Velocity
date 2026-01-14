@@ -1,0 +1,14 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-sticky-actions",
+  "title": "Actions flottantes",
+  "blockType": "stickyActions",
+  "data": {
+    "actions": [
+      { "label": "Appeler", "type": "call", "href": "+33472000000" },
+      { "label": "SMS", "type": "sms", "href": "+33600000000" },
+      { "label": "WhatsApp", "type": "whatsapp", "href": "+33600000000" },
+      { "label": "Demander un devis", "type": "link", "href": "https://velocity.agency/devis" }
+    ]
+  }
+}

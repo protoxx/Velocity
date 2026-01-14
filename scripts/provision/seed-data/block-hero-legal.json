@@ -1,0 +1,12 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-hero-legal",
+  "title": "Hero Mentions",
+  "blockType": "heroLocal",
+  "data": {
+    "heading": "Informations légales",
+    "subheading": "Documents obligatoires et politiques Velocity.",
+    "primaryCta": "Télécharger",
+    "secondaryCta": "Nous contacter"
+  }
+}

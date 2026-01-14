@@ -1,0 +1,11 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-contact-cta",
+  "title": "CTA Contact",
+  "blockType": "ctaContact",
+  "data": {
+    "heading": "Besoin d'un audit gratuit ?",
+    "primaryCta": "Planifier un appel",
+    "secondaryCta": "Nous écrire"
+  }
+}

@@ -1,0 +1,1 @@
+{"preset":"desktop","chromeFlags":"--headless=new,--no-sandbox,--disable-dev-shm-usage,--user-data-dir=./.tmp/lhci-chrome --headless"}

@@ -1,0 +1,14 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-legal-links",
+  "title": "Liens légaux",
+  "blockType": "legalLinks",
+  "data": {
+    "heading": "Documents officiels",
+    "legalLinks": [
+      { "label": "Mentions légales", "url": "https://velocity.agency/mentions" },
+      { "label": "Politique RGPD", "url": "https://velocity.agency/rgpd" },
+      { "label": "CGV", "url": "https://velocity.agency/cgv" }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-hero-services",
+  "title": "Hero services",
+  "blockType": "heroLocal",
+  "data": {
+    "heading": "Des services pensés pour les entreprises locales",
+    "subheading": "De l'identité visuelle à l'acquisition locale, Velocity couvre tout le parcours digital.",
+    "primaryCta": "Parler à un expert"
+  }
+}

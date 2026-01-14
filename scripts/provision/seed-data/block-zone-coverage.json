@@ -1,0 +1,18 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-zone-coverage",
+  "title": "Zones desservies",
+  "blockType": "zoneCoverage",
+  "data": {
+    "heading": "Zones d'intervention express",
+    "coverageDescription": "Nous couvrons l'ensemble de la métropole lyonnaise et intervenons sous 48h.",
+    "serviceAreas": [
+      "Lyon 1",
+      "Lyon 2",
+      "Villeurbanne",
+      "Bron",
+      "Décines",
+      "Caluire"
+    ]
+  }
+}

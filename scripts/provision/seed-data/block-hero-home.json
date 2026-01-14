@@ -1,0 +1,12 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-hero-home",
+  "title": "Hero accueil",
+  "blockType": "heroLocal",
+  "data": {
+    "heading": "Votre site local ultra-performant",
+    "subheading": "Velocity crée des sites optimisés SEO et conversions pour les entreprises de proximité.",
+    "primaryCta": "Demander un devis",
+    "secondaryCta": "Voir nos réalisations"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-services",
+  "title": "Services principaux",
+  "blockType": "servicesGrid",
+  "data": {
+    "heading": "Services clés pour votre visibilité",
+    "items": [
+      "Création de site vitrine ultra-rapide",
+      "Optimisation SEO locale",
+      "Gestion des avis et réputation",
+      "Landing pages dédiées aux campagnes"
+    ]
+  }
+}

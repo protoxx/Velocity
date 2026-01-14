@@ -1,0 +1,12 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-hero-faq",
+  "title": "Hero FAQ",
+  "blockType": "heroLocal",
+  "data": {
+    "heading": "FAQ Velocity",
+    "subheading": "Toutes les réponses à vos questions sur nos sites locaux.",
+    "primaryCta": "Voir nos offres",
+    "secondaryCta": "Contactez-nous"
+  }
+}

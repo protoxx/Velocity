@@ -1,0 +1,11 @@
+{
+  "_type": "page",
+  "_id": "page-welcome",
+  "title": "Accueil",
+  "slug": { "_type": "slug", "current": "accueil" },
+  "content": [
+    { "_type": "reference", "_ref": "block-hero-home" },
+    { "_type": "reference", "_ref": "block-services" },
+    { "_type": "reference", "_ref": "block-cta-contact" }
+  ]
+}

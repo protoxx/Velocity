@@ -1,0 +1,13 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-local-proof",
+  "title": "Preuves locales",
+  "blockType": "localProof",
+  "data": {
+    "heading": "Ils nous font confiance",
+    "items": [
+      "Grâce à Velocity, nous recevons 3x plus de demandes. — Atelier Lumière",
+      "Notre fiche Google Business est toujours à jour. — Boulangerie du Canal"
+    ]
+  }
+}

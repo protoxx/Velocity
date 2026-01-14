@@ -1,0 +1,20 @@
+{
+  "name": "@velocity/studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "@sanity/icons": "^2.11.2",
+    "@sanity/ui": "^2.16.22",
+    "@sanity/vision": "^3.39.0",
+    "@velocity/schema": "workspace:*",
+    "dotenv": "^16.4.5",
+    "sanity": "^3.39.0",
+    "styled-components": "^6.1.15"
+  }
+}

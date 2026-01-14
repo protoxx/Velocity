@@ -1,0 +1,19 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-faq-local",
+  "title": "FAQ locale",
+  "blockType": "faqLocal",
+  "data": {
+    "heading": "Questions fréquemment posées",
+    "faqs": [
+      {
+        "question": "Sous quel délai livrez-vous un site local ?",
+        "answer": "Nos sites Velocity sont livrés en 10 jours ouvrés en moyenne, contenus et SEO compris."
+      },
+      {
+        "question": "Est-ce compatible avec Google Business Profile ?",
+        "answer": "Oui, nous automatisons la synchronisation des informations clés pour booster votre présence locale."
+      }
+    ]
+  }
+}

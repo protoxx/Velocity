@@ -1,0 +1,11 @@
+{
+  "_type": "page",
+  "_id": "page-mentions",
+  "title": "Mentions légales",
+  "slug": { "_type": "slug", "current": "mentions-legales" },
+  "content": [
+    { "_type": "reference", "_ref": "block-hero-legal" },
+    { "_type": "reference", "_ref": "block-legal-links" },
+    { "_type": "reference", "_ref": "block-contact-cta" }
+  ]
+}

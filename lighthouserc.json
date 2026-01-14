@@ -1,0 +1,27 @@
+{
+  "ci": {
+    "collect": {
+      "startServerCommand": "pnpm --filter @velocity/web dev --hostname 0.0.0.0 --port 3000",
+      "startServerReadyPattern": "Local: *http://localhost:3000",
+      "numberOfRuns": 1,
+      "url": [
+        "http://localhost:3000/",
+        "http://localhost:3000/contact",
+        "http://localhost:3000/faq"
+      ],
+      "settings": {
+        "preset": "desktop",
+        "chromeFlags": [
+          "--headless=new",
+          "--no-sandbox",
+          "--disable-dev-shm-usage",
+          "--user-data-dir=./.tmp/lhci-chrome"
+        ]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": ".lighthouse"
+    }
+  }
+}

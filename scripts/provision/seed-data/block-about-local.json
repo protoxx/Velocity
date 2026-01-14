@@ -1,0 +1,11 @@
+{
+  "_type": "pageBlock",
+  "_id": "block-about-local",
+  "title": "À propos local",
+  "blockType": "aboutLocal",
+  "data": {
+    "heading": "Ancrés à Lyon depuis 2014",
+    "richText": "Velocity accompagne les artisans et entreprises locales dans leur croissance digitale avec des sites ultra-rapides, conformes RGPD et optimisés SEO local.",
+    "certifications": []
+  }
+}
