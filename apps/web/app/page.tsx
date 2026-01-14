@@ -1,37 +1,41 @@
 import { BlockRenderer } from "@/components/blocks/BlockRenderer";
-import type { Block } from "@/types/blocks";
+import type { BlockDocument } from "@/types/blocks";
 import { getPageBySlug } from "@/lib/page-service";
 import { draftMode } from "next/headers";
 
-const FALLBACK_BLOCKS: Block[] = [
+const FALLBACK_BLOCKS: BlockDocument[] = [
   {
-    _key: "fallback-hero",
-    _type: "heroLocal",
-    eyebrow: "Agence web locale",
-    heading: "Velocity accompagne votre commerce de quartier",
-    subheading: "Sites vitrines optimisés SEO, formulaires connectés et contenus prêts à l'emploi.",
-    primaryCta: { label: "Parler à un expert", href: "/contact" },
-    secondaryCta: { label: "Voir des exemples", href: "/faq" },
-    highlights: ["Pages essentielles prêtes en 48h", "Gestion simplifiée via Sanity", "Conversion mobile-first"],
+    _id: "fallback-hero",
+    blockType: "heroLocal",
+    data: {
+      heading: "Velocity accompagne votre commerce de quartier",
+      subheading: "Sites vitrines optimisés SEO, formulaires connectés et contenus prêts à l'emploi.",
+      primaryCta: "Parler à un expert",
+      secondaryCta: "Voir des exemples",
+    },
   },
   {
-    _key: "fallback-services",
-    _type: "servicesGrid",
-    title: "Ce que nous livrons par défaut",
-    introduction: "Chaque site Velocity inclut les sections indispensables pour convertir vos prospects locaux.",
-    services: [
-      { title: "Accueil storytelling", description: "Hero convaincant, preuves sociales et CTA vers le contact." },
-      { title: "Services & zone", description: "Cartographie de votre aire d'intervention et détails des prestations." },
-      { title: "FAQ locale", description: "Réponses SEO-friendly aux questions les plus recherchées." },
-    ],
+    _id: "fallback-services",
+    blockType: "servicesGrid",
+    data: {
+      heading: "Ce que nous livrons par défaut",
+      subheading: "Chaque site Velocity inclut les sections indispensables pour convertir vos prospects locaux.",
+      items: [
+        "Accueil storytelling avec CTA contact",
+        "Services & zone d'intervention détaillés",
+        "FAQ locale optimisée SEO",
+      ],
+    },
   },
   {
-    _key: "fallback-cta",
-    _type: "ctaContact",
-    heading: "Besoin d'automatiser votre prochaine vitrine ?",
-    description: "Velocity synchronise Sanity, Next.js et Vercel pour industrialiser vos sites locaux.",
-    primaryAction: { label: "Demander une démo", href: "/contact" },
-    secondaryAction: { label: "Process complet", href: "/faq" },
+    _id: "fallback-cta",
+    blockType: "ctaContact",
+    data: {
+      heading: "Besoin d'automatiser votre prochaine vitrine ?",
+      subheading: "Velocity synchronise Sanity, Next.js et Vercel pour industrialiser vos sites locaux.",
+      primaryCta: "Demander une démo",
+      secondaryCta: "Process complet",
+    },
   },
 ];
 

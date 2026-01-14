@@ -64,6 +64,15 @@ VERCEL_DEPLOY_HOOK_URL=
 
 > ⚠️ Si `VERCEL_TOKEN` n’est pas défini, l’étape Vercel est simplement ignorée.
 
+### 4.1 Cycle de vie après la mise en place initiale
+
+Les étapes lourdes (initialisation Git, push complet du monorepo, configuration du Root Directory Vercel vers `apps/web`) ne sont à réaliser **qu’une seule fois**. Ensuite :
+
+- Chaque nouveau client se résume à relancer la commande `bootstrap-client` avec son slug/dataset.
+- Le script détecte si un dataset existe déjà et saute automatiquement le clonage.
+- Le projet Vercel garde la configuration `apps/web` : seules les variables d’environnement et le deploy hook sont rafraîchis.
+- Les mises à jour de code se font via les commits habituels (`git commit` / `git push`), sans impact sur les datasets existants.
+
 ## 5. Synchronisation Vercel (détails)
 
 `syncVercelProject` (`scripts/provision/utils/vercel-sync.mjs`) expose :

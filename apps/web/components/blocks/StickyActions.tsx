@@ -1,10 +1,18 @@
 import clsx from "clsx";
 
-type StickyActionsProps = {
-  actions?: { label?: string; type?: "call" | "sms" | "whatsapp" | "link"; href?: string }[];
+type ActionType = "call" | "sms" | "whatsapp" | "link";
+
+type StickyAction = {
+  label?: string;
+  type?: ActionType;
+  href?: string;
 };
 
-const typeToLabel: Record<NonNullable<StickyActionsProps["actions"]>[number]["type"], string> = {
+type StickyActionsProps = {
+  actions?: StickyAction[];
+};
+
+const typeToLabel: Record<ActionType, string> = {
   call: "Appeler",
   sms: "SMS",
   whatsapp: "WhatsApp",
@@ -18,17 +26,19 @@ export function StickyActions({ actions }: StickyActionsProps) {
     <div className="fixed bottom-4 left-1/2 z-50 flex -translate-x-1/2 gap-3 rounded-full bg-white/95 px-4 py-3 shadow-2xl shadow-zinc-900/20 md:hidden">
       {actions.map((action, index) => {
         if (!action?.href) return null;
-        const label = action.label || (action.type ? typeToLabel[action.type] : "Action");
-        const href = action.type === "call" ? `tel:${action.href}` : action.type === "sms" ? `sms:${action.href}` : action.href;
+        const resolvedType: ActionType = action.type ?? "link";
+        const label = action.label || typeToLabel[resolvedType];
+        const href =
+          resolvedType === "call" ? `tel:${action.href}` : resolvedType === "sms" ? `sms:${action.href}` : action.href;
         return (
           <a
             key={`${action.href}-${index}`}
             href={href}
-            target={action.type === "link" ? "_blank" : undefined}
-            rel={action.type === "link" ? "noreferrer" : undefined}
+            target={resolvedType === "link" ? "_blank" : undefined}
+            rel={resolvedType === "link" ? "noreferrer" : undefined}
             className={clsx(
               "rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-wide",
-              action.type === "link" ? "bg-zinc-900 text-white" : "border border-zinc-900 text-zinc-900"
+              resolvedType === "link" ? "bg-zinc-900 text-white" : "border border-zinc-900 text-zinc-900"
             )}
           >
             {label}
